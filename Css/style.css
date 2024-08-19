@@ -3,10 +3,10 @@
   padding: 0;
   box-sizing: border-box; }
 
-.header {
+.Header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #69D8D112; }
-  .header img {
+  background-color: #21cdc212; }
+  .Header img {
     width: 6.25rem; }
