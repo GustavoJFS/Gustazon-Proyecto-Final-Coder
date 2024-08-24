@@ -1,0 +1,112 @@
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 3.125rem 6.25rem;
+    background-color: hsl(210, 46%, 86%);
+    h2{
+        position: relative;
+        color: #333;
+        font-weight: 600;
+        margin-bottom: .9375rem;
+    }
+}
+
+footer .container-footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-gap: 1.25rem;
+}
+
+footer .sec-aboutus p{
+    color: #555;
+}
+
+footer .sci{
+    margin-top: 1.25rem;
+    display: grid;
+    grid-template-columns: repeat(4,3.125rem);
+}
+
+footer .sci li{
+    list-style: none;
+    a{
+        display: inline-block;
+        width: 2.25rem;
+        height: 2.25rem;
+        background: #333;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        text-decoration: none;
+        i{
+            color: #fff;
+            font-size: 1.25rem;
+        }
+    }
+}
+
+footer .sec-quicklinks{
+    position: relative;
+    li{
+        list-style: none;
+        a{
+            color: #555;
+            text-decoration: none;
+            margin: .625rem;
+            display: inline-block;
+        }
+    } 
+}
+
+footer .sec-contact .info{
+    position: relative;
+    li{
+    display: grid;
+    grid-template-columns: 1.875rem 1fr;
+    margin-bottom: 1rem;
+    span{
+        color: #555;
+        font-size: 1.25rem;
+        
+    }
+    a{
+        color: #555;
+        text-decoration: none;
+    }
+    }
+}
+
+.copyrightText{
+    width: 100%;
+    background: hsl(210, 46%, 86%);
+    padding: 1.25rem 6.25rem 1.875rem;
+    text-align: center;
+    color: #555;
+    border: .0625rem solid rgba(0,0,0,0.15);
+}
+
+@media (max-width: 61.9375rem){
+    footer{
+        padding: 2.5rem;
+        .container-footer{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 1.25rem;
+
+        }
+    }
+    .copyrightText{
+        padding: 1.25rem 2.5rem 1.875rem;
+    }
+}
+@media (max-width: 48rem) {
+    footer .container-footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 1.25rem;
+    }
+}
