@@ -102,19 +102,31 @@
       <i class="ri-close-line login__close" id="login-close"></i>
    </div>
 <Main>
-      <section>
-         <h2>Nuestro contacto</h2>
-            <ul>
-                  <li><p><b>Numero:</b>809-350-0809</p></li>
-                  <li><p><b>Email:</b>gfriassimo1@hotmail.com</p></li>
-            </ul>
-      </section>
-      <section>
-
-      </section>
-      <section>
-
-      </section>
+   <section class="contact-me">
+      <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you have any questions or want to get in touch, feel free to reach out using the form below:</p>
+      
+      <form action="/submit" method="post">
+         <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+         </div>
+         
+         <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+         </div>
+         
+         <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+         </div>
+         
+         <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+      </div>
+   </section>
 </Main>
 <footer> 
    <div class="container-footer">
